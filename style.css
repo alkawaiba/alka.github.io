@@ -262,12 +262,12 @@ section .title::after{
 
 /* services section styling */
 .services, .experience, .projects{
-    color:#fff;
-    background: #111;
+    color:#9a0f3f;
+    /* background: #111; */
 }
 .services .title::before,
 .projects, .experience .title::before{
-    background: #fff;
+    background: #222;
 }
 .services .title::after,
 /* .teams .title::after{
@@ -276,7 +276,7 @@ section .title::after{
 } */
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #e2bac5;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -298,7 +298,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: #9a0f3f;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -325,7 +325,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: #9a0f3f;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -369,22 +369,19 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .js::before{
     width: 60%;
 }
-.skills-content .right .rails::before{
+.skills-content .right .react::before{
     width: 70%;
 }
-.skills-content .right .django::before{
-    width: 40%;
+.skills-content .right .wp::before{
+    width: 80%;
 }
-.skills-content .right .angular::before{
+.skills-content .right .tail::before{
     width: 40%;
-}
-.skills-content .right .postgresql::before{
-    width: 60%;
 }
 
 /* teams section styling */
@@ -392,7 +389,7 @@ section .title::after{
     content: "Experience until 2023-04";
 } */
 .experience .carousel .card{
-    background: #222;
+    background: #e2bac5;
     border-radius: 6px;
     padding: 30px 35px;
     text-align: center;
@@ -401,6 +398,7 @@ section .title::after{
 }
 .experience .carousel .card:hover{
     background: crimson;
+    color: white;
 }
 .experience .carousel .card .box{
     display: flex;
@@ -426,10 +424,10 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .experience .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #9a0f3f;
 }
 .projects, .experience, .carousel .card{
-    background: #222;
+    background: #e2bac5;
     border-radius: 6px;
     padding: 30px 35px;
     text-align: center;
@@ -438,6 +436,7 @@ section .title::after{
 }
 .projects .carousel .card:hover{
     background: crimson;
+    color: white;
 }
 .projects .carousel .card .box{
     display: flex;
@@ -463,7 +462,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #9a0f3f;
 }
 .owl-dots{
     text-align: center;
